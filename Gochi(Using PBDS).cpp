@@ -12,6 +12,7 @@ tree<pair<int, int>, null_type, less<pair<int, int>>, rb_tree_tag, tree_order_st
 
 int main()
 {
+    // Precalculating number of divisors
     const int s = 100001;
     long long d[s];
     memset(d, 0, sizeof(d));
@@ -22,6 +23,8 @@ int main()
             d[j]++;
         }
     }
+    
+    // Solution
     int q;
     cin >> q;
     while(q--)
