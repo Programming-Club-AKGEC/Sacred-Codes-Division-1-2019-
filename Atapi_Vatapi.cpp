@@ -23,10 +23,6 @@ int main()
     // output the solution
     int t;
     cin >> t;
-    if(t > 20)
-    {
-        return 0;
-    }
     while (t--)
     {
         int n;
